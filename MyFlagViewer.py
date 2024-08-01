@@ -1,4 +1,5 @@
+import countryflag
 def FlagViewer(country):
-  #Bunch of code
-  print("The Flag of",country,"is :")
-  #view(flag)
+  countries=[country]
+  flags = countryflag.getflag(countries)
+  print(flags)
